@@ -8,7 +8,7 @@ public class CountDownCalendar {
 
         // get the current date
         GregorianCalendar gregorianCalendarNow = new GregorianCalendar();
-        gregorianCalendarNow.set(2020,7, 13);
+        gregorianCalendarNow.set(2020,7, 14);
         int now = gregorianCalendarNow.get(GregorianCalendar.DAY_OF_YEAR);
 
         //get the date in future
