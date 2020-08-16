@@ -1,14 +1,15 @@
 package com.util;
 
+import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 // demonstrate a countdown calendar
 public class CountDownCalendar {
     public static void main(String[] args) {
-
+        Calendar calendar = Calendar.getInstance();
         // get the current date
         GregorianCalendar gregorianCalendarNow = new GregorianCalendar();
-        gregorianCalendarNow.set(2020,7, 14);
+        gregorianCalendarNow.set(2020, 7, 16);
         int now = gregorianCalendarNow.get(GregorianCalendar.DAY_OF_YEAR);
 
         //get the date in future
