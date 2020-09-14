@@ -19,7 +19,7 @@ public class ComparatorDemo2 {
         treeSet.add("e");
 
         // display the elements
-        for(String element: treeSet)
+        for (String element : treeSet)
             System.out.println(element + "");
 
         System.out.println();
